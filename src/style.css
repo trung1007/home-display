@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: wheat;
+}
+
+#header {
+    position: relative;
+    width: 90%;
+    height: 70px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 100%;
+}
+
+.home {
+    /* font-size: 12px;
+    color: black;
+    background-color: red;
+    border: white; */
+}
+
+.logo {
+    display: inline-block;
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+.home-function {
+    display: inline-block;
+    line-height: 70px;
+    font-size: 16px;
+    padding-left: 40px;
+    color: black;
+    opacity: 0.9;
+    margin-top: 0;
+}
+
+.home-function:hover {
+    color: #47bdec;
+    cursor: pointer;
+}
+
+.login {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 35px;
+    color: #47bdec;
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+
+.sign-up {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #47bdec;
+    line-height: 35px;
+    position: absolute;
+    right: 60px;
+    bottom: 0px;
+    border: 1px solid #47bdec;
+    border-radius: 4px;
+}
+
+.login:hover {
+    background-color: #47bdec;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.sign-up:hover {
+    background-color: #47bdec;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#search {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: 450px;
+    background-image: url(./img/kinh-nghiem-di-six-senses-ninh-van-bay-2.jpg);
+    image-rendering: pixelated;
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+}
+
+.slogan {
+    padding-top: 4px;
+    color: white;
+    text-align: center;
+}
+
+.slogan h1 {
+    margin-top: 4px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.slogan h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.search-function {
+    position: absolute;  
+    display: flex;
+    width: 60%;
+    height: 88px;
+    min-width: 800px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    top:140px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px 2px;
+    z-index: 2;
+}
+
+.search-icons{
+    display: inline-block;
+    position: relative;
+    width: 140px;
+    height: 88px;
+    margin-left: 20px;
+    
+}
+.search-icons i{
+    position: absolute;
+    display: inline;
+    top:16px;
+    font-size: 28px;
+    left:56px;
+    
+    
+}
+.search-icons button{
+    position: absolute;
+    bottom:8px;
+    font-size: 15px;
+    width: 140px;
+    background-color: white;
+    border: white;
+    color: inherit;
+}
+
+.search-icons:hover{
+    color: #47bdec;
+    transition: 0.3s;
+}
+
+.search-result{
+    display: flex;
+    width: 70%;
+    height: 400px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: normal;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:355px;
+    z-index: 1;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px 2px;
+}
+
+.search-bar{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 90%;
+    height: 62px;
+    position: relative;
+    
+    line-height: 62px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px 2px;
+}
+
+.search-bar label {
+    width: 20px;
+    height: 62px;
+    position: absolute;
+    left:20px;
+    text-align: center;
+}
+
+.search-bar i{
+    font-size: 22px;
+    margin-top: 22px;
+}
+
+.search-bar input{
+    position: absolute;
+    left: 60px;
+    height: 57px;
+    width: 90%;
+    border: 1px solid white;
+}
+
+
+
+
+
+.search-btn{
+    display: inline-block;
+    width: 400px;
+    height: 60px;
+    background-color: #47bdec;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -164px;
+    z-index: 2;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px 2px;
+}
+.search-btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#slide{
+    top: 430px;
+    width: 80%;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+.slide-script{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.best-visited{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-bottom: 100px;
+}
+
+.image-hcm{
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/Nganh-Du-lich-thanh-pho-Ho-.jpg);
+    background-size: 150px 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.image-hcm{
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/Nganh-Du-lich-thanh-pho-Ho-.jpg);
+    background-size: 150px 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.image-dn{
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/1.jpg);
+    background-size: 150px 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.image-dl{
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/da-lat-tu-tren-cao.jpg);
+    background-size: 150px 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.image-hn{
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/hồ-gươm-du-lịch-Hà-Nội-ivivu.jpg);
+    background-size: 150px 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.image-hp{
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/du-lich-hai-phong-1.png);
+    background-size: 150px 150px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.location{
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    font-size: 18px;
+}
+
+#footer{
+
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #202020;
+    top:100px;
+
+}
+
+.footer-script{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top:50px;
+    color: #ccc;
+}
