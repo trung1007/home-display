@@ -230,7 +230,7 @@ body {
     background-color: #47bdec;
     color: white;
     position: absolute;
-    left: 50%;
+    left:50%;
     transform: translate(-50%, -50%);
     bottom: -164px;
     z-index: 2;
@@ -238,11 +238,17 @@ body {
     line-height: 60px;
     font-size: 30px;
     border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px 2px;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px 2px; */
+    border: none;
+    box-shadow: 0 15px 0 #20B2AA;
+    transition: .3s;
+
 }
-.search-btn:hover{
+.search-btn:active{
     cursor: pointer;
-    opacity: 0.9;
+    /* opacity: 0.9; */
+    box-shadow: none;
+    transform: translate(-50%,-15px);
 }
 
 #slide{
